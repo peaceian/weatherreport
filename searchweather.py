@@ -5,7 +5,7 @@ import math
 
 
 
-user_key = 'CWB-869C7631-CE97-4263-9AF8-635DF71E8A67'
+user_key = 'CWB-869C7631-CE97-4263-8AF8-635DF71E8A67'
 doc_name = 'O-A0001-001'
 url = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/%s?Authorization=%s" % (doc_name,user_key)
 data = requests.get(url)
